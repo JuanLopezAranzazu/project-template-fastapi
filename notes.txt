@@ -1,0 +1,24 @@
+git clone
+
+pip install -r requirements.txt
+
+Entorno Virtual
+
+python -m venv .venv
+
+devDependencies
+
+dependencies
+
+pip install python-dotenv
+pip install fastapi
+pip install sqlalchemy
+pip install pydantic
+pip install argon2-cffi
+pip install python-jose[cryptography]
+pip install uvicorn
+
+RUN APP
+
+uvicorn app.main:app --reload
+uvicorn app.main:app --reload --port 8080

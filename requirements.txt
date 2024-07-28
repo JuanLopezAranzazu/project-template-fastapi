@@ -1,0 +1,8 @@
+python-dotenv
+fastapi
+sqlalchemy
+pymysql
+pydantic
+argon2-cffi
+python-jose[cryptography]
+uvicorn
